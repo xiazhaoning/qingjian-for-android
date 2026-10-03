@@ -1,0 +1,15 @@
+[package]
+name = "qingjian-android"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+jni.workspace = true
+qingjian-core.workspace = true
+qingjian-dictionary.workspace = true
+serde_json.workspace = true
